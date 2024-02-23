@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Im master!!!
+        // This is test_branch2
 
         ActivityResultContract<String, ActivityResult> contract =
                 new ActivityResultContract<String, ActivityResult>() {
